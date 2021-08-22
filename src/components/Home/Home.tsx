@@ -28,7 +28,7 @@ export const Home = () => {
         <div>
             <Container className="text-white">
                 <Row>
-                    <Col md={6} className="mx-auto mt-5">
+                    <Col lg={8} className="mx-auto mt-5">
                         <Image src={self} className={classes.selfClass} roundedCircle />
                         <h1 className="text-center mt-4">Jesse Nauman</h1>
                         <h2 className="text-center mb-5">Full Stack Web Developer</h2>

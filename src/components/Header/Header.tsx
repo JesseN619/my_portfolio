@@ -16,9 +16,9 @@ export const Header = () => {
                         <LinkContainer to='/' href="">
                             <Nav.Link className="ms-3">Home</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to='/resume' href="">
+                        {/* <LinkContainer to='/resume' href="">
                             <Nav.Link className="ms-3">Resume</Nav.Link>
-                        </LinkContainer>
+                        </LinkContainer> */}
                         <LinkContainer to='/portfolio' href="">
                             <Nav.Link className="ms-3">Portfolio</Nav.Link>
                         </LinkContainer>
