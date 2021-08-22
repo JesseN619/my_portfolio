@@ -11,7 +11,7 @@ export const Contact = () => {
             <Container>
                 <Row>
                     <Col className="text-center mt-5 mb-4">
-                        <h1>Send me an Email</h1>
+                        <h2>Send me an email</h2>
                     </Col>
                 </Row>
                 <Row>
