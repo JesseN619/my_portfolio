@@ -1,12 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { Header, Home, Resume, Portfolio, Contact } from './components';
+import './styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+    <Header />
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/resume'>
+              <Resume />
+            </Route>
+            <Route path='/portfolio'>
+              <Portfolio />
+            </Route>
+            <Route path='/contact'>
+              <Contact />
+            </Route>
+          </Switch>
+        </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
