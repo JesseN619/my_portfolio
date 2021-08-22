@@ -5,9 +5,20 @@ import { Header, Home, Resume, Portfolio, Contact } from './components';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import { CssBaseline } from '@material-ui/core';
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+
+const darkTheme = createTheme({
+    palette: {
+      type: 'dark',
+    },
+});
 
 ReactDOM.render(
+
   <React.StrictMode>
+      <ThemeProvider theme={darkTheme}>
+  <CssBaseline />
     <Router>
     <Header />
           <Switch>
@@ -25,6 +36,7 @@ ReactDOM.render(
             </Route>
           </Switch>
         </Router>
+        </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
