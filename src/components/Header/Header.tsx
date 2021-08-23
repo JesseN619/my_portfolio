@@ -3,7 +3,19 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from 'react-router-bootstrap';
 
+// import { makeStyles, createStyles } from '@material-ui/core';
+
+// const useStyles = makeStyles(() => 
+//     createStyles({
+//         icons: {
+//             verticalAlign: '5px'
+//         }
+//     })
+// );
+
 export const Header = () => {
+    // const classes = useStyles();
+
     return (
         <div>
             <Navbar id="nav" bg="primary" variant="dark" expand="md">
@@ -31,3 +43,8 @@ export const Header = () => {
         </div>
     )
 }
+{/* <div className="icon-container">
+<Nav.Link className="ms-3">
+
+</Nav.Link>
+</div> */}
