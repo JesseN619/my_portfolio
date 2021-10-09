@@ -4,15 +4,45 @@
     box-sizing: inherit;
 }
 
-#about-me {
-    font-size: 130%;
-}
-
 #nav {
     font-size: 130%;
 }
 
+#about-me {
+    font-size: 130%;
+    margin-top: 60px;
+}
 
+.skills-head {
+    padding-bottom: 45px;
+    text-transform: uppercase;
+    font-weight: normal;
+    opacity: 60%;
+    text-align: right;
+}
+
+.skills {
+    vertical-align: top;
+    padding-left: 30px;
+}
+
+.skills-row {
+    padding-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
+.skills-titles {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
 
 .icons {
     /* position: absolute;
