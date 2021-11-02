@@ -30,7 +30,7 @@ export const Home = () => {
         <div>
             <Container className="text-white">
                 <Row>
-                    <Col lg={6} className="mx-auto mt-5">
+                    <Col md={8} className="mx-auto mt-5">
                         <Image src={self} className={classes.selfClass} roundedCircle />
                         <h1 className="text-center mt-4">Jesse Nauman</h1>
                         <h2 className="text-center">Software Engineer</h2>
@@ -46,31 +46,30 @@ export const Home = () => {
                                 </a>
                             </div>
                         </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm={12} md={9} lg={7} className="mx-auto mt-4">
                         <div className="ms-3" id="about-me">
                             <table className="mb-5">
                                 <tr>
-                                    <th className="skills-head">Languages</th>
-                                    <td className="skills">Python, JavaScript/TypeScript, JSON, HTML, CSS</td>
+                                    <th className="skills-head text-3xl">Languages</th>
+                                    <td className="skills text-lg">Python, JavaScript/TypeScript, JSON, HTML, CSS</td>
                                 </tr>
                                 <tr>
-                                    <th className="skills-head">Frameworks/Libraries</th>
+                                    <th className="skills-head">Frameworks/<br />Libraries</th>
                                     <td className="skills">Flask, React, Redux, Tailwind CSS, Bootstrap, Material UI</td>
                                 </tr>
                                 <tr>
                                     <th className="skills-head">Data</th>
-                                    <td className="skills">PostgreSQL, Pandas, NumPy, Pandas, Matplotlib, PySpark, Scikit-learn</td>
+                                    <td className="skills">PostgreSQL, Pandas, NumPy, Matplotlib, PySpark, Scikit-learn</td>
                                 </tr>
                                 <tr>
                                     <th className="skills-head">Tools</th>
                                     <td className="skills">Git, GitHub, Insomnia, Google Firebase, Heroku, Slack, VSCode, Google Workspace, Microsoft Office</td>
                                 </tr>
                             </table>
-                            {/* <ul className="skills-list">
-                                <li><span className="skills-titles">Languages</span> Python, JavaScript/TypeScript, JSON, HTML, CSS</li>
-                                <li><span className="skills-titles">Frameworks</span>/Libraries Flask, React, Redux, Tailwind CSS, Bootstrap, Material UI</li>
-                                <li><span className="skills-titles">Data</span> PostgreSQL, Pandas, NumPy, Pandas, Matplotlib, PySpark, Scikit-learn</li>
-                                <li><span className="skills-titles">Tools</span> Git, GitHub, Insomnia, Google Firebase, Heroku, Slack, VSCode, Google Workspace, Microsoft Office</li>
-                            </ul> */}
+                            
                             <p>
                                 I’m a perpetual learner and a problem solver. I enjoy technology and have a passion for the medical field.
                                 The dynamics of biology and medicine have always interested me but being an engineer provides me a sense of

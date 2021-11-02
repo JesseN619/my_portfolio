@@ -4,26 +4,28 @@
     box-sizing: inherit;
 }
 
+/* Had to use rem for font-size. Tailwind not adjusting font with class names. */
 #nav {
-    font-size: 130%;
+    font-size: 1.3rem;
 }
 
 #about-me {
-    font-size: 130%;
+    font-size: 1.1rem;
     margin-top: 60px;
 }
 
 .skills-head {
-    padding-bottom: 45px;
     text-transform: uppercase;
     font-weight: normal;
     opacity: 60%;
     text-align: right;
+    vertical-align: top;
 }
 
 .skills {
     vertical-align: top;
     padding-left: 30px;
+    padding-bottom: 30px;
 }
 
 .skills-row {
