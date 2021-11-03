@@ -15,9 +15,6 @@ const useStyles = makeStyles(() =>
             display: 'block',
             margin: 'auto',
             border: '4px solid #0275d8',
-        },
-        paragraph: {
-            fontSize: '200%'
         }
     })
 );
@@ -30,7 +27,7 @@ export const Home = () => {
         <div>
             <Container className="text-white">
                 <Row>
-                    <Col md={8} className="mx-auto mt-5">
+                    <Col md={7} className="mx-auto mt-5">
                         <Image src={self} className={classes.selfClass} roundedCircle />
                         <h1 className="text-center mt-4">Jesse Nauman</h1>
                         <h2 className="text-center">Software Engineer</h2>
@@ -49,8 +46,8 @@ export const Home = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12} md={9} lg={7} className="mx-auto mt-4">
-                        <div className="ms-3" id="about-me">
+                    <Col md={10} lg={7} className="mx-auto mt-4">
+                        <div className="ms-3 mx-auto" id="about-me">
                             <table className="mb-5">
                                 <tr>
                                     <th className="skills-head text-3xl">Languages</th>

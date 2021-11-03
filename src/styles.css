@@ -4,13 +4,12 @@
     box-sizing: inherit;
 }
 
-/* Had to use rem for font-size. Tailwind not adjusting font with class names. */
 #nav {
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 
 #about-me {
-    font-size: 1.1rem;
+    font-size: calc(1em + 0.3vw);
     margin-top: 60px;
 }
 
