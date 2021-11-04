@@ -4,9 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import self from '../../assets/images/self.jpg';
+import Button from 'react-bootstrap/Button';
 import { makeStyles, createStyles } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import JesseNaumanResume from "../../assets/Jesse-Nauman-Resume.pdf";
 
 const useStyles = makeStyles(() =>
     createStyles({
@@ -42,6 +44,11 @@ export const Home = () => {
                                     <LinkedInIcon fontSize="large" className="icons text-center" />
                                 </a>
                             </div>
+                        </div>
+                        <div className="text-center mt-4">
+                            <a href={JesseNaumanResume} download="Jesse-Nauman-Resume">
+                                <Button variant="outline-light">Download Resume</Button>
+                            </a>
                         </div>
                     </Col>
                 </Row>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import { Header, Home, Resume, Portfolio, Contact } from './components';
+import { Header, Home, Portfolio, Contact } from './components';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
@@ -24,9 +24,6 @@ ReactDOM.render(
           <Switch>
             <Route exact path='/'>
               <Home />
-            </Route>
-            <Route path='/resume'>
-              <Resume />
             </Route>
             <Route path='/portfolio'>
               <Portfolio />

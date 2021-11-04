@@ -28,9 +28,6 @@ export const Header = () => {
                         <IndexLinkContainer to='/' href="">
                             <Nav.Link className="ms-3">Home</Nav.Link>
                         </IndexLinkContainer>
-                        {/* <LinkContainer to='/resume' href="">
-                            <Nav.Link className="ms-3">Resume</Nav.Link>
-                        </LinkContainer> */}
                         <LinkContainer to='/portfolio' href="">
                             <Nav.Link className="ms-3">Portfolio</Nav.Link>
                         </LinkContainer>
